@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CrimeIntent</string>
+    <string name="crime_fragment">글을 입력해주세요.</string>
+</resources>

@@ -1,0 +1,24 @@
+package com.example.crimeintent
+
+import java.util.*
+
+class Crime {
+    private  var mTitle: String = ""
+    private var mId: UUID
+
+    constructor() {
+        mId = UUID.randomUUID()
+    }
+
+    fun getId(): UUID {
+        return mId
+    }
+
+    fun getTitle(): String {
+        return mTitle
+    }
+
+    fun setTitle(title: String) {
+        mTitle = title
+    }
+}
